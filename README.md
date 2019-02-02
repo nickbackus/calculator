@@ -1,44 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Calculator App
+This is a basic calculator web app built with React & Bootstrap.
 
-## Available Scripts
+## Features
+- Add, Subtract, Multiply, and Divide
+- Buttons can be clicked or input from your keyboard can be typed directly into the calculator
+- Flexible layout designed for use on all different devices
 
-In the project directory, you can run:
+## Installation 
+Clone or download the project from its [Github repository](https://github.com/nickbackus/calculator)
+
+In the project directory you can do the following:
+
+### `npm install`
+Installs all of the dependencies. Run this first before trying to run the application.
 
 ### `npm start`
-
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
-
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+See the section about [create-react-app deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## To Do List
+- Multiple math operators in a row should cause an error ( e.g. currently 5+--+2 = 7)
+- Make the "Enter" key equivalent to the equals operator
+- Add more documentation, and specifically: jsdocs
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Future possibilities 
+- Add a system for user set variables
+- Add parenthesis functionality to the calculator
+- Add a scrollable history of recent calculations
 
 ## Learn More
+[Look at the project live at nickbackus.com](http://nickbackus.com/projects/calculator/build/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Go to [nickbackus.com](http://nickbackus.com) to see all of my projects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
