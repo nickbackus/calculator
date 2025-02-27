@@ -6,6 +6,9 @@ This is a basic calculator web app built with React & Bootstrap.
 - Buttons can be clicked or input from your keyboard can be typed directly into the calculator
 - Flexible layout designed for use on all different devices
 
+## Dependencies
+Requiress NPM
+
 ## Installation 
 Clone or download the project from its [Github repository](https://github.com/nickbackus/calculator)
 
