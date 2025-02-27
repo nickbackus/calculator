@@ -5,7 +5,7 @@ const BOOTSTRAP_STYLE_CLASSES = {
   DISPLAY_WRAPPER: "row bg-dark text-light rounded mb-3",
   DISPLAY: "text-right col-12 px-2 py-1",
   BUTTON_ROW: "row my-1", 
-  BUTTON: "border border-dark btn btn-dark btn-block rounded",
+  BUTTON: "border border-dark btn btn-dark w-100 rounded",
   BUTTON_WRAPPER: "col-3 my-1 btn-wrapper",
   NO_BUTTON: "col-3"
 }
